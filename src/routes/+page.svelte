@@ -10,6 +10,9 @@
 		<a href="/zugkugelkupplung">
 			<div class="card w-96 bg-base-100 shadow-xl">Zugkugelkupplung</div>
 		</a>
+		<a href="/betaetigungsscheibe_9622">
+			<div class="card w-96 bg-base-100 shadow-xl">Betätigungsscheibe 9622</div>
+		</a>
 	</div>
 </main>
 
@@ -20,7 +23,7 @@
 		justify-items: center;
 		justify-content: center;
 		grid-gap: 20px;
-		grid-template-columns: repeat(3, 10rem);
+		grid-template-columns: repeat(4, 10rem);
 	}
 	.card {
 		display: table-cell;
