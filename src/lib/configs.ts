@@ -47,6 +47,32 @@ export const siteColumns = {
         },
         { sql_name: 'Pa_ges_Max', display_name: 'Parallelität ges Max', visible: true, filterable: false, type: 'number', range: false }
     ],
+    messwerte_bts_9622: [
+        { sql_name: 'Art_Nummer', display_name: 'ArtikelNr', visible: true, filterable: true, type: 'string', range: false },
+        { sql_name: 'Datum', display_name: 'Datum', visible: true, filterable: true, type: 'date', range: false },
+        { sql_name: 'Auftrags_Nummer', display_name: 'AuftragsNr', visible: true, filterable: true, type: 'string', range: false },
+        { sql_name: 'Pos_Nummer', display_name: 'Positionsnummer', visible: true, filterable: true, type: 'number', range: false },
+        { sql_name: 'Zn_Index', display_name: 'ZN Index', visible: true, filterable: true, type: 'number', range: false },
+        { sql_name: 'IO', display_name: 'IO', visible: true, filterable: false, type: 'string', range: false },
+        {
+            sql_name: 'Parallelitaet_ungespreizt',
+            display_name: 'Parallelität \n unges',
+            visible: true,
+            filterable: false,
+            type: 'number',
+            range: false
+        },
+        { sql_name: 'Para_unges_Max', display_name: 'Parallelität unges max', visible: true, filterable: true, type: 'number', range: false },
+        {
+            sql_name: 'Parallelitaet_gespreizt',
+            display_name: 'Parallelität ges',
+            visible: true,
+            filterable: false,
+            type: 'number',
+            range: false
+        },
+        { sql_name: 'Pa_ges_Max', display_name: 'Parallelität ges Max', visible: true, filterable: false, type: 'number', range: false }
+    ],
 
     messwerte_stabikupplung: [
         { sql_name: 'ARTNR', display_name: 'Artikelnummer', visible: true, filterable: true, type: 'string', range: false },
